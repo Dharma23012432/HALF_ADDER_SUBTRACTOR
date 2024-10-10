@@ -76,7 +76,7 @@ endmodule
 
 
 **RTL Schematic**
-HALF ADDER;
+HALF ADDER:
 ![Screenshot 2024-10-03 114026](https://github.com/user-attachments/assets/9d864cdd-b117-4cef-840d-c26b91e2d44e)
 
 
@@ -92,7 +92,7 @@ HALF ADDER:
 
 HALF SUTRACTOR:
 
-![image](https://github.com/user-attachments/assets/d4a33b76-5886-47c8-b133-8246fcff63fb)
+![Screenshot 2024-10-10 110811](https://github.com/user-attachments/assets/b36fd8a0-e793-48c2-9317-f6eeef6e85da)
 
 
 **Result:**
