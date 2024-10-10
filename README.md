@@ -2,7 +2,7 @@
 
 Implementation-of-Half-Adder-and-Half Subtractor-circuit
 ```
-Developed by: DHARMALIGAM S
+Developed by: DHARMALINGAM S
 RegisterNumber: 212223040037
 ```
 
