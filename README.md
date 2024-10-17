@@ -65,34 +65,28 @@ output sum,carry;
 endmodule
 
 *Half_subtractor*
-module HALF(a,b,D,BO);
+module halfsub_top(a,b,D,Bo);
 input a,b;
-output D,BO;
-assign D = a^b;
- assign BO = ~a&b;
+output D,Bo; // Outputs sum and carry for half adder:Outputs difference D,Borrow Bo for half subtractor
+assign D = a ^ b;
+  assign Bo = ~a & b;
 endmodule
 
 ~~~
 
 
 **RTL Schematic**
-HALF ADDER:
-![Screenshot 2024-10-03 114026](https://github.com/user-attachments/assets/9d864cdd-b117-4cef-840d-c26b91e2d44e)
-
-
-HALF SUBTRACTOR:
-
-![Screenshot 2024-10-10 110918](https://github.com/user-attachments/assets/8426a1ad-dc37-497f-969c-e3e2f04a8a2d)
+![DE E-3 RTL](https://github.com/04Varsha/HALF_ADDER_SUBTRACTOR/assets/149035374/4146d7c9-565b-4389-b8a2-54118b2c261e)
 
 **Output/TIMING Waveform**
 
 HALF ADDER:
-![Screenshot 2024-10-03 114320](https://github.com/user-attachments/assets/39a53f43-7934-4ef7-a65d-e723a6342601)
 
+![DE E-3 adder](https://github.com/04Varsha/HALF_ADDER_SUBTRACTOR/assets/149035374/8efe7503-fea8-4272-bf8b-0e334e95cdb1)
 
 HALF SUTRACTOR:
 
-![Screenshot 2024-10-10 110811](https://github.com/user-attachments/assets/b36fd8a0-e793-48c2-9317-f6eeef6e85da)
+![DE E-3 subtractor](https://github.com/04Varsha/HALF_ADDER_SUBTRACTOR/assets/149035374/5bd0588f-6b33-4352-bfb0-2e33f3f77f13)
 
 
 **Result:**
